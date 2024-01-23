@@ -11,10 +11,10 @@ import {
 	__facade_register__,
 } from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\node_modules\\wrangler\\templates\\middleware\\common.ts";
 
-import worker from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\bundle-QdPU61\\middleware-insertion-facade.js";
+import worker from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\bundle-TNj6la\\middleware-insertion-facade.js";
 
 // We need to preserve all of the exports from the worker
-export * from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\bundle-QdPU61\\middleware-insertion-facade.js";
+export * from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\bundle-TNj6la\\middleware-insertion-facade.js";
 
 class __Facade_ScheduledController__ implements ScheduledController {
 	#noRetry: ScheduledController["noRetry"];
