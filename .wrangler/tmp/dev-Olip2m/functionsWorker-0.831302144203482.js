@@ -1,4 +1,4 @@
-// .wrangler/tmp/bundle-qvqAjK/checked-fetch.js
+// .wrangler/tmp/bundle-cDuhtE/checked-fetch.js
 var urls = /* @__PURE__ */ new Set();
 function checkURL(request, init) {
   const url = request instanceof URL ? request : new URL(
@@ -45,7 +45,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
   ]);
 }
 
-// .wrangler/tmp/pages-av8HtJ/functionsWorker-0.7978659907629404.mjs
+// .wrangler/tmp/pages-MwaMOG/functionsWorker-0.831302144203482.mjs
 var urls2 = /* @__PURE__ */ new Set();
 function checkURL2(request, init) {
   const url = request instanceof URL ? request : new URL(
@@ -168,14 +168,14 @@ var routes = [
     modules: [onRequestGet2]
   },
   {
-    routePath: "/our-network",
+    routePath: "/our_network",
     mountPath: "/",
     method: "GET",
     middlewares: [],
     modules: [onRequestGet3]
   },
   {
-    routePath: "/the-digital-divide",
+    routePath: "/the_digital_divide",
     mountPath: "/",
     method: "GET",
     middlewares: [],
@@ -769,7 +769,7 @@ var jsonError2 = async (request, env, _ctx, middlewareCtx) => {
 var middleware_miniflare3_json_error_default2 = jsonError2;
 var wrap2 = void 0;
 
-// .wrangler/tmp/bundle-qvqAjK/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-cDuhtE/middleware-insertion-facade.js
 var envWrappers2 = [wrap2].filter(Boolean);
 var facade3 = {
   ...middleware_loader_entry_default,
@@ -781,7 +781,7 @@ var facade3 = {
 };
 var middleware_insertion_facade_default2 = facade3;
 
-// .wrangler/tmp/bundle-qvqAjK/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-cDuhtE/middleware-loader.entry.ts
 var __Facade_ScheduledController__2 = class {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;
@@ -869,4 +869,4 @@ var middleware_loader_entry_default2 = facade4;
 export {
   middleware_loader_entry_default2 as default
 };
-//# sourceMappingURL=functionsWorker-0.7978659907629404.js.map
+//# sourceMappingURL=functionsWorker-0.831302144203482.js.map

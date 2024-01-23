@@ -1,4 +1,4 @@
-// ../.wrangler/tmp/bundle-QdPU61/checked-fetch.js
+// ../.wrangler/tmp/bundle-TNj6la/checked-fetch.js
 var urls = /* @__PURE__ */ new Set();
 function checkURL(request, init) {
   const url = request instanceof URL ? request : new URL(
@@ -55,7 +55,7 @@ async function handleRequest2(context) {
   return response;
 }
 
-// our_network.js
+// our-network.js
 async function onRequestGet3(context) {
   return await handleRequest3(context);
 }
@@ -71,7 +71,7 @@ async function handleRequest3(context) {
   return response;
 }
 
-// the_digital_divide.js
+// the-digital-divide.js
 async function onRequestGet4(context) {
   return await handleRequest4(context);
 }
@@ -135,14 +135,14 @@ var routes = [
     modules: [onRequestGet2]
   },
   {
-    routePath: "/our_network",
+    routePath: "/our-network",
     mountPath: "/",
     method: "GET",
     middlewares: [],
     modules: [onRequestGet3]
   },
   {
-    routePath: "/the_digital_divide",
+    routePath: "/the-digital-divide",
     mountPath: "/",
     method: "GET",
     middlewares: [],
@@ -627,7 +627,7 @@ var jsonError = async (request, env, _ctx, middlewareCtx) => {
 var middleware_miniflare3_json_error_default = jsonError;
 var wrap = void 0;
 
-// ../.wrangler/tmp/bundle-QdPU61/middleware-insertion-facade.js
+// ../.wrangler/tmp/bundle-TNj6la/middleware-insertion-facade.js
 var envWrappers = [wrap].filter(Boolean);
 var facade = {
   ...pages_template_worker_default,
@@ -639,7 +639,7 @@ var facade = {
 };
 var middleware_insertion_facade_default = facade;
 
-// ../.wrangler/tmp/bundle-QdPU61/middleware-loader.entry.ts
+// ../.wrangler/tmp/bundle-TNj6la/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;
