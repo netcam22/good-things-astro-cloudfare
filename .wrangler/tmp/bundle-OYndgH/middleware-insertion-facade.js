@@ -1,4 +1,4 @@
-				import worker, * as OTHER_EXPORTS from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\node_modules\\wrangler\\templates\\pages-template-worker.ts";
+				import worker, * as OTHER_EXPORTS from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\pages-VlqqTB\\functionsWorker-0.018313232023163595.mjs";
 				import * as __MIDDLEWARE_0__ from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\node_modules\\wrangler\\templates\\middleware\\middleware-miniflare3-json-error.ts";
 				const envWrappers = [__MIDDLEWARE_0__.wrap].filter(Boolean);
 				const facade = {
@@ -9,7 +9,7 @@
             ...(worker.middleware ? worker.middleware : []),
 					].filter(Boolean)
 				}
-				export * from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\node_modules\\wrangler\\templates\\pages-template-worker.ts";
+				export * from "C:\\wamp64\\www\\github\\vue\\prod\\good-things-astro-cloudflare\\.wrangler\\tmp\\pages-VlqqTB\\functionsWorker-0.018313232023163595.mjs";
 
 				const maskDurableObjectDefinition = (cls) =>
 					class extends cls {
