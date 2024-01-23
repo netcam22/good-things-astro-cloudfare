@@ -36,6 +36,7 @@ All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
 | `npm run pages:dev`       | Creates local build with Wrangler                |
 | `npm run pages:deploy`    | Deploys to Cloudfare pages with Wrangler         |
 
