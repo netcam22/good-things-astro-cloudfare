@@ -1,0 +1,5 @@
+name = "cat-fact"
+main = "src/index.js"
+compatibility_date = "2024-01-20"
+[env.production]
+vars = { ENVIRONMENT = "production" }
